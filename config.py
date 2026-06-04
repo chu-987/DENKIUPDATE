@@ -36,22 +36,22 @@ YT_API_KEY = getenv("YT_API_KEY" , 'xbit_e40oXFazWDFy6rLPPICI1M8KdlW-91Dc' ) ## 
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/denki307/DENKIMUSICBOT",
+    "https://github.com/chu-987/DENKIUPDATE",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_WORLD")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Jana_Nayagan_Tamil_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/myanmar_music_Bot2027")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/myanmarbot_music")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  5400))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/HANTHAR_1999")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
